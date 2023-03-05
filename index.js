@@ -9,7 +9,6 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 app.use(bodyParser.json())
-
 const url = 'mongodb+srv://ashtonmapunga0912:7lWtdJlgUzpF65wB@clusterhvjhgvjh.44w6jcf.mongodb.net/?retryWrites=true&w=majority'
 mongoose.connect(url, {})
 
